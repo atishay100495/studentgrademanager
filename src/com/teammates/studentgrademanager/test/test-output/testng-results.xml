@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="6" failed="0" total="6" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1061" started-at="2015-03-22T19:15:53Z" finished-at="2015-03-22T19:15:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1061" started-at="2015-03-22T19:15:53Z" finished-at="2015-03-22T19:15:55Z">
+      <class name="com.teammates.studentgrademanager.test.SimpleTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="setUp" is-config="true" duration-ms="0" started-at="2015-03-23T00:45:53Z" finished-at="2015-03-23T00:45:53Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[Could not contact Selenium Server; have you started it on 'localhost:4444' ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: Could not contact Selenium Server; have you started it on 'localhost:4444' ?
+Read more at http://seleniumhq.org/projects/remote-control/not-started.html
+Connection refused: connect
+	at com.thoughtworks.selenium.DefaultSelenium.start(DefaultSelenium.java:104)
+	at com.teammates.studentgrademanager.test.SimpleTest.setUp(SimpleTest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="testStudentRegister()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="testStudentRegister" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentRegister -->
+        <test-method status="SKIP" signature="testStudentLoginLogoutTest()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="testStudentLoginLogoutTest" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStudentLoginLogoutTest -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="setUp" is-config="true" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="setUp" is-config="true" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="setUp" is-config="true" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="testUpdateStudentRecordTest2()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="testUpdateStudentRecordTest2" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateStudentRecordTest2 -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="setUp" is-config="true" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="setUp" is-config="true" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="testAdminRegister()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="testAdminRegister" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminRegister -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="tearDown" is-config="true" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="testAdminLogin()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="testAdminLogin" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdminLogin -->
+        <test-method status="SKIP" signature="testUpdateStudentRecordTest1()[pri:0, instance:com.teammates.studentgrademanager.test.SimpleTest@166afb3]" name="testUpdateStudentRecordTest1" duration-ms="0" started-at="2015-03-23T00:45:55Z" finished-at="2015-03-23T00:45:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateStudentRecordTest1 -->
+      </class> <!-- com.teammates.studentgrademanager.test.SimpleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

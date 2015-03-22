@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5" xmlns="http://java.sun.com/xml/ns/javaee">
+  <context-param>
+    <param-name>javax.faces.INTERPRET_EMPTY_STRING_SUBMITTED_VALUES_AS_NULL</param-name>
+    <param-value>true</param-value>
+  </context-param>
+  <servlet>
+    <servlet-name>Faces Servlet</servlet-name>
+    <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <servlet-name>Jersey REST Service</servlet-name>
+    <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+    <init-param>
+      <param-name>com.sun.jersey.config.property.packages</param-name>
+      <param-value>com.teammates.studentgrademanager.rest</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <servlet-name>StudentLoginServlet</servlet-name>
+    <servlet-class>com.teammates.studentgrademanager.controller.StudentLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StudentLogoutServlet</servlet-name>
+    <servlet-class>com.teammates.studentgrademanager.controller.StudentLogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Faces Servlet</servlet-name>
+    <url-pattern>/faces/*</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>StudentController</servlet-name>
+    <servlet-class>com.teammates.studentgrademanager.controller.StudentController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StudentRegistrationController</servlet-name>
+    <servlet-class>com.teammates.studentgrademanager.controller.StudentRegistrationController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ViewStudentDetailsController</servlet-name>
+    <servlet-class>com.teammates.studentgrademanager.controller.ViewStudentDetailsController</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ViewSortedListController</servlet-name>
+    <servlet-class>com.teammates.studentgrademanager.controller.ViewSortedListController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jersey REST Service</servlet-name>
+    <url-pattern>/api/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentController</servlet-name>
+    <url-pattern>/StudentDetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentRegistrationController</servlet-name>
+    <url-pattern>/StudentRegistrationDetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewStudentDetailsController</servlet-name>
+    <url-pattern>/ViewStudentDetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewSortedListController</servlet-name>
+    <url-pattern>/ViewSortedList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentLoginServlet</servlet-name>
+    <url-pattern>/StudentLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentLogoutServlet</servlet-name>
+    <url-pattern>/StudentLogoutServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>/WelcomePage.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
