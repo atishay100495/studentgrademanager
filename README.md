@@ -21,5 +21,5 @@ Steps for Use:
 2. Install SQLDeveloper. Create a user for the database.
 3. Run CreateAdminDetailTable.sql and CreateStudentDetailTable.sql to create the required tables.
 4. Fill in the database info in db.properties file.
-5. Run the WelcomePage.jsp from JDeveloper.
+5. Run the web.xml file from JDeveloper.
 6. Run the test by going to the test directory and running 'ant run'
