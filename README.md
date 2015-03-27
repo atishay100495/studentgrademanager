@@ -1,5 +1,5 @@
 #StudentGradeManager
-This is simple application for educational purpose and covers use of the following:
+This is a simple application for educational purpose and covers use of the following:
 - Java
 - JDBC
 - JSP
